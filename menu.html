@@ -3,1460 +3,515 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Menu — Brûlé Cafe</title>
-
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Google Fonts -->
+  <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-
 <body>
 
-  <!-- =========================
-       NAVBAR
-  ========================== -->
-
+  <!-- NAVBAR -->
   <nav class="navbar scrolled">
     <div class="nav-inner">
-
-      <a href="index.html" class="logo">
-        Brûlé<span>.</span>
-      </a>
-
+      <a href="index.html" class="logo">Brûlé<span>.</span></a>
       <ul class="nav-links">
-        <li>
-          <a href="index.html#about">Our Story</a>
-        </li>
-
-        <li>
-          <a href="index.html#specialties">Specialties</a>
-        </li>
-
-        <li>
-          <a href="index.html#gallery">Gallery</a>
-        </li>
-
-        <li>
-          <a href="index.html#contact">Contact</a>
-        </li>
-
-        <li>
-          <a href="index.html" class="btn-nav">← Back Home</a>
-        </li>
+        <li><a href="index.html#about">Our Story</a></li>
+        <li><a href="index.html#specialties">Specialties</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html" class="btn-nav">← Back Home</a></li>
       </ul>
-
       <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </div>
-
     </div>
   </nav>
 
-
-  <!-- =========================
-       MENU HERO
-  ========================== -->
-
+  <!-- MENU HERO -->
   <section class="menu-hero">
-
     <div class="menu-hero-bg">
-      <img
-        src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1800&q=80"
-        alt="Menu Hero"
-      />
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1800&q=80" alt="Menu Hero" />
     </div>
-
     <div class="menu-hero-ov"></div>
-
     <div class="menu-hero-cnt">
       <span class="tag-label">Brûlé Cafe</span>
-
-      <h1>
-        Our <em>Menu</em>
-      </h1>
-
-      <p>
-        Crafted with care · Sourced with intention
-      </p>
+      <h1>Our <em>Menu</em></h1>
+      <p>Crafted with care · Sourced with intention</p>
     </div>
-
   </section>
 
-
-  <!-- =========================
-       TABS
-  ========================== -->
-
+  <!-- TABS -->
   <div class="menu-tabs-bar">
-
     <div class="menu-tabs">
-
-      <button class="menu-tab active" data-tab="espresso">
-        <i class="fa-solid fa-mug-hot"></i>
-        Espresso
-      </button>
-
-      <button class="menu-tab" data-tab="filter">
-        <i class="fa-solid fa-filter"></i>
-        Filter Coffee
-      </button>
-
-      <button class="menu-tab" data-tab="cold">
-        <i class="fa-solid fa-ice-cream"></i>
-        Cold Drinks
-      </button>
-
-      <button class="menu-tab" data-tab="tea">
-        <i class="fa-solid fa-leaf"></i>
-        Tea & Wellness
-      </button>
-
-      <button class="menu-tab" data-tab="food">
-        <i class="fa-solid fa-bread-slice"></i>
-        Food
-      </button>
-
-      <button class="menu-tab" data-tab="pastry">
-        <i class="fa-solid fa-cookie-bite"></i>
-        Pastries
-      </button>
-
+      <button class="menu-tab active" data-tab="espresso"><i class="fa-solid fa-mug-hot"></i> Espresso</button>
+      <button class="menu-tab" data-tab="filter"><i class="fa-solid fa-filter"></i> Filter Coffee</button>
+      <button class="menu-tab" data-tab="cold"><i class="fa-solid fa-ice-cream"></i> Cold Drinks</button>
+      <button class="menu-tab" data-tab="tea"><i class="fa-solid fa-leaf"></i> Tea & Wellness</button>
+      <button class="menu-tab" data-tab="food"><i class="fa-solid fa-bread-slice"></i> Food</button>
+      <button class="menu-tab" data-tab="pastry"><i class="fa-solid fa-cookie-bite"></i> Pastries</button>
     </div>
-
   </div>
 
-
-  <!-- =========================
-       MENU BODY
-  ========================== -->
-
+  <!-- MENU BODY -->
   <div class="menu-body">
-
     <div class="container">
-
 
       <!-- ===== ESPRESSO ===== -->
-
       <div class="menu-section active" id="tab-espresso">
-
         <div class="menu-sec-title">
-
-          <span class="tag-label">
-            Espresso Bar
-          </span>
-
-          <h2>
-            Espresso <em>Classics</em>
-          </h2>
-
-          <p>
-            All drinks available with oat, almond, or soy milk at no extra charge
-          </p>
-
+          <span class="tag-label">Espresso Bar</span>
+          <h2>Espresso <em>Classics</em></h2>
+          <p>All drinks available with oat, almond, or soy milk at no extra charge</p>
         </div>
-
-
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=200&q=80"
-                alt="Espresso"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=200&q=80" alt="Espresso" /></div>
             <div class="m-item-info">
               <h4>Espresso</h4>
-
-              <p>
-                Single or double shot of our house blend. Bright, fruity, and full-bodied.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-              </div>
+              <p>Single or double shot of our house blend. Bright, fruity, and full-bodied.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span></div>
             </div>
-
-            <div class="m-price">
-              $3.20
-            </div>
-
+            <div class="m-price">$3.20</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=200&q=80"
-                alt="Cortado"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=200&q=80" alt="Cortado" /></div>
             <div class="m-item-info">
-
               <h4>Brûlé Cortado</h4>
-
-              <p>
-                Equal parts espresso and steamed milk. Intense yet gentle.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Equal parts espresso and steamed milk. Intense yet gentle.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $4.50
-            </div>
-
+            <div class="m-price">$4.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?w=200&q=80"
-                alt="Flat White"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?w=200&q=80" alt="Flat White" /></div>
             <div class="m-item-info">
-
               <h4>Flat White</h4>
-
-              <p>
-                Ristretto shots with velvety micro-foam milk. Rich and smooth.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Ristretto shots with velvety micro-foam milk. Rich and smooth.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.00
-            </div>
-
+            <div class="m-price">$5.00</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=200&q=80"
-                alt="Cappuccino"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=200&q=80" alt="Cappuccino" /></div>
             <div class="m-item-info">
-
               <h4>Cappuccino</h4>
-
-              <p>
-                Classic thirds of espresso, steamed milk, and thick foam. A timeless ritual.
-              </p>
-
+              <p>Classic thirds of espresso, steamed milk, and thick foam. A timeless ritual.</p>
               <div class="m-tags"></div>
-
             </div>
-
-            <div class="m-price">
-              $4.80
-            </div>
-
+            <div class="m-price">$4.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=200&q=80"
-                alt="Latte"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=200&q=80" alt="Latte" /></div>
             <div class="m-item-info">
-
               <h4>Caramel Latte</h4>
-
-              <p>
-                Espresso, steamed milk, and house-made salted caramel sauce.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Espresso, steamed milk, and house-made salted caramel sauce.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.50
-            </div>
-
+            <div class="m-price">$5.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1578374173703-64a27c492861?w=200&q=80"
-                alt="Macchiato"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1578374173703-64a27c492861?w=200&q=80" alt="Macchiato" /></div>
             <div class="m-item-info">
-
               <h4>Hazelnut Macchiato</h4>
-
-              <p>
-                Layered espresso, hazelnut syrup, and cold milk over ice.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag new">New</span>
-              </div>
-
+              <p>Layered espresso, hazelnut syrup, and cold milk over ice.</p>
+              <div class="m-tags"><span class="m-tag new">New</span></div>
             </div>
-
-            <div class="m-price">
-              $5.80
-            </div>
-
+            <div class="m-price">$5.80</div>
           </div>
-
         </div>
 
-
-        <div class="menu-divider">
-          <span>Add-ons</span>
-        </div>
-
-
+        <div class="menu-divider"><span>Add-ons</span></div>
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200&q=80"
-                alt="Extra Shot"
-              />
-            </div>
-
-            <div class="m-item-info">
-              <h4>Extra Espresso Shot</h4>
-              <p>Add an extra shot to any drink.</p>
-            </div>
-
-            <div class="m-price">
-              $0.80
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200&q=80" alt="Extra Shot" /></div>
+            <div class="m-item-info"><h4>Extra Espresso Shot</h4><p>Add an extra shot to any drink.</p></div>
+            <div class="m-price">$0.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1563636619-e9143da7973b?w=200&q=80"
-                alt="Syrup"
-              />
-            </div>
-
-            <div class="m-item-info">
-              <h4>Flavored Syrup</h4>
-              <p>Vanilla · Caramel · Hazelnut · Lavender · Rose</p>
-            </div>
-
-            <div class="m-price">
-              $0.60
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?w=200&q=80" alt="Syrup" /></div>
+            <div class="m-item-info"><h4>Flavored Syrup</h4><p>Vanilla · Caramel · Hazelnut · Lavender · Rose</p></div>
+            <div class="m-price">$0.60</div>
           </div>
-
         </div>
-
       </div>
-
 
       <!-- ===== FILTER COFFEE ===== -->
-
       <div class="menu-section" id="tab-filter">
-
         <div class="menu-sec-title">
-
-          <span class="tag-label">
-            Pour Over & Batch
-          </span>
-
-          <h2>
-            Filter <em>Coffee</em>
-          </h2>
-
-          <p>
-            Single-origin beans, brewed to order
-          </p>
-
+          <span class="tag-label">Pour Over & Batch</span>
+          <h2>Filter <em>Coffee</em></h2>
+          <p>Single-origin beans, brewed to order</p>
         </div>
-
-
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=200&q=80"
-                alt="V60"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=200&q=80" alt="V60" /></div>
             <div class="m-item-info">
-
               <h4>V60 Pour Over</h4>
-
-              <p>
-                Rotating single-origin. Ask your barista what's on today. Clean, complex, expressive.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-              </div>
-
+              <p>Rotating single-origin. Ask your barista what's on today. Clean, complex, expressive.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span></div>
             </div>
-
-            <div class="m-price">
-              $6.50
-            </div>
-
+            <div class="m-price">$6.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=200&q=80"
-                alt="Aeropress"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=200&q=80" alt="Aeropress" /></div>
             <div class="m-item-info">
-
               <h4>AeroPress</h4>
-
-              <p>
-                Full-immersion brew with a clean, syrupy body. Bold and satisfying.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Full-immersion brew with a clean, syrupy body. Bold and satisfying.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.80
-            </div>
-
+            <div class="m-price">$5.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=200&q=80"
-                alt="Batch Brew"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=200&q=80" alt="Batch Brew" /></div>
             <div class="m-item-info">
-
               <h4>Batch Brew</h4>
-
-              <p>
-                Our daily house blend, brewed in a large batch. Great and consistent every time.
-              </p>
-
+              <p>Our daily house blend, brewed in a large batch. Great and consistent every time.</p>
               <div class="m-tags"></div>
-
             </div>
-
-            <div class="m-price">
-              $3.80
-            </div>
-
+            <div class="m-price">$3.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=200&q=80"
-                alt="Chemex"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=200&q=80" alt="Chemex" /></div>
             <div class="m-item-info">
-
               <h4>Chemex (2 cups)</h4>
-
-              <p>
-                Slow pour, bright and clean clarity. Perfect for sharing or savoring alone.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-              </div>
-
+              <p>Slow pour, bright and clean clarity. Perfect for sharing or savoring alone.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span></div>
             </div>
-
-            <div class="m-price">
-              $10.00
-            </div>
-
+            <div class="m-price">$10.00</div>
           </div>
-
         </div>
-
       </div>
-
 
       <!-- ===== COLD DRINKS ===== -->
-
       <div class="menu-section" id="tab-cold">
-
         <div class="menu-sec-title">
-
-          <span class="tag-label">
-            Chilled & Refreshing
-          </span>
-
-          <h2>
-            Cold <em>Drinks</em>
-          </h2>
-
-          <p>
-            Made fresh daily — no concentrates, no shortcuts
-          </p>
-
+          <span class="tag-label">Chilled & Refreshing</span>
+          <h2>Cold <em>Drinks</em></h2>
+          <p>Made fresh daily — no concentrates, no shortcuts</p>
         </div>
-
-
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=200&q=80"
-                alt="Cold Brew"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=200&q=80" alt="Cold Brew" /></div>
             <div class="m-item-info">
-
               <h4>Dark Ember Cold Brew</h4>
-
-              <p>
-                24-hour steeped dark roast over ice with toasted vanilla and brown sugar.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>24-hour steeped dark roast over ice with toasted vanilla and brown sugar.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.80
-            </div>
-
+            <div class="m-price">$5.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=200&q=80"
-                alt="Iced Latte"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=200&q=80" alt="Iced Latte" /></div>
             <div class="m-item-info">
-
               <h4>Iced Caramel Latte</h4>
-
-              <p>
-                Double espresso over ice, cold milk, and salted caramel drizzle.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Double espresso over ice, cold milk, and salted caramel drizzle.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.50
-            </div>
-
+            <div class="m-price">$5.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=200&q=80"
-                alt="Nitro"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=200&q=80" alt="Nitro" /></div>
             <div class="m-item-info">
-
               <h4>Nitro Cold Brew</h4>
-
-              <p>
-                Cold brew on nitrogen tap. Silky, creamy, and naturally sweet — no sugar needed.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag new">New</span>
-              </div>
-
+              <p>Cold brew on nitrogen tap. Silky, creamy, and naturally sweet — no sugar needed.</p>
+              <div class="m-tags"><span class="m-tag new">New</span></div>
             </div>
-
-            <div class="m-price">
-              $6.50
-            </div>
-
+            <div class="m-price">$6.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=200&q=80"
-                alt="Matcha"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=200&q=80" alt="Matcha" /></div>
             <div class="m-item-info">
-
               <h4>Iced Matcha Latte</h4>
-
-              <p>
-                Ceremonial-grade matcha whisked with oat milk over ice. Earthy and refreshing.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Ceremonial-grade matcha whisked with oat milk over ice. Earthy and refreshing.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.80
-            </div>
-
+            <div class="m-price">$5.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1546173159-315724a31696?w=200&q=80"
-                alt="Lemonade"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1546173159-315724a31696?w=200&q=80" alt="Lemonade" /></div>
             <div class="m-item-info">
-
               <h4>Espresso Lemonade</h4>
-
-              <p>
-                Shot of espresso over fresh-squeezed lemonade and mint. Unexpectedly addictive.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag new">New</span>
-                <span class="m-tag vgn">Vegan</span>
-              </div>
-
+              <p>Shot of espresso over fresh-squeezed lemonade and mint. Unexpectedly addictive.</p>
+              <div class="m-tags"><span class="m-tag new">New</span><span class="m-tag vgn">Vegan</span></div>
             </div>
-
-            <div class="m-price">
-              $5.20
-            </div>
-
+            <div class="m-price">$5.20</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1437418747212-8d9709afab22?w=200&q=80"
-                alt="Smoothie"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1437418747212-8d9709afab22?w=200&q=80" alt="Smoothie" /></div>
             <div class="m-item-info">
-
               <h4>Banana Oat Smoothie</h4>
-
-              <p>
-                Frozen banana, oat milk, almond butter, and a pinch of cinnamon. Fuel in a cup.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-              </div>
-
+              <p>Frozen banana, oat milk, almond butter, and a pinch of cinnamon. Fuel in a cup.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span></div>
             </div>
-
-            <div class="m-price">
-              $6.00
-            </div>
-
+            <div class="m-price">$6.00</div>
           </div>
-
         </div>
-
       </div>
-
 
       <!-- ===== TEA & WELLNESS ===== -->
-
       <div class="menu-section" id="tab-tea">
-
         <div class="menu-sec-title">
-
-          <span class="tag-label">
-            Calm & Nourish
-          </span>
-
-          <h2>
-            Tea & <em>Wellness</em>
-          </h2>
-
-          <p>
-            Premium loose-leaf teas and functional drinks
-          </p>
-
+          <span class="tag-label">Calm & Nourish</span>
+          <h2>Tea & <em>Wellness</em></h2>
+          <p>Premium loose-leaf teas and functional drinks</p>
         </div>
-
-
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=200&q=80"
-                alt="Chai"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=200&q=80" alt="Chai" /></div>
             <div class="m-item-info">
-
               <h4>Masala Chai Latte</h4>
-
-              <p>
-                Spiced black tea with steamed oat milk, cardamom, ginger, and cinnamon.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Spiced black tea with steamed oat milk, cardamom, ginger, and cinnamon.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $5.20
-            </div>
-
+            <div class="m-price">$5.20</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=200&q=80"
-                alt="Matcha"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=200&q=80" alt="Matcha" /></div>
             <div class="m-item-info">
-
               <h4>Hot Matcha Latte</h4>
-
-              <p>
-                Ceremonial grade matcha whisked into steamed milk with a touch of honey.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-              </div>
-
+              <p>Ceremonial grade matcha whisked into steamed milk with a touch of honey.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span></div>
             </div>
-
-            <div class="m-price">
-              $5.50
-            </div>
-
+            <div class="m-price">$5.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80"
-                alt="Golden Milk"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80" alt="Golden Milk" /></div>
             <div class="m-item-info">
-
               <h4>Golden Turmeric Milk</h4>
-
-              <p>
-                Steamed oat milk with turmeric, black pepper, ginger, and raw honey.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-                <span class="m-tag new">New</span>
-              </div>
-
+              <p>Steamed oat milk with turmeric, black pepper, ginger, and raw honey.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span><span class="m-tag new">New</span></div>
             </div>
-
-            <div class="m-price">
-              $5.00
-            </div>
-
+            <div class="m-price">$5.00</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1597481499750-3e6b22637536?w=200&q=80"
-                alt="Herbal Tea"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1597481499750-3e6b22637536?w=200&q=80" alt="Herbal Tea" /></div>
             <div class="m-item-info">
-
               <h4>Loose-Leaf Herbal Tea</h4>
-
-              <p>
-                Rotating selection: Chamomile · Peppermint · Hibiscus · Lemon Verbena
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-              </div>
-
+              <p>Rotating selection: Chamomile · Peppermint · Hibiscus · Lemon Verbena</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span></div>
             </div>
-
-            <div class="m-price">
-              $4.00
-            </div>
-
+            <div class="m-price">$4.00</div>
           </div>
-
         </div>
-
       </div>
-
 
       <!-- ===== FOOD ===== -->
-
       <div class="menu-section" id="tab-food">
-
         <div class="menu-sec-title">
-
-          <span class="tag-label">
-            Kitchen
-          </span>
-
-          <h2>
-            Food <em>Menu</em>
-          </h2>
-
-          <p>
-            Fresh ingredients, prepared in-house every morning
-          </p>
-
+          <span class="tag-label">Kitchen</span>
+          <h2>Food <em>Menu</em></h2>
+          <p>Fresh ingredients, prepared in-house every morning</p>
         </div>
-
-
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=200&q=80"
-                alt="Avocado Toast"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=200&q=80" alt="Avocado Toast" /></div>
             <div class="m-item-info">
-
               <h4>Avocado Toast</h4>
-
-              <p>
-                Sourdough, smashed avocado, poached egg, chilli flakes, and micro greens.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Sourdough, smashed avocado, poached egg, chilli flakes, and micro greens.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $12.00
-            </div>
-
+            <div class="m-price">$12.00</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1484723091739-30990038d45a?w=200&q=80"
-                alt="French Toast"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1484723091739-30990038d45a?w=200&q=80" alt="French Toast" /></div>
             <div class="m-item-info">
-
               <h4>Brûlée French Toast</h4>
-
-              <p>
-                Thick-cut brioche, custard-soaked and caramelized, served with berry compote.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Thick-cut brioche, custard-soaked and caramelized, served with berry compote.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $14.50
-            </div>
-
+            <div class="m-price">$14.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=200&q=80"
-                alt="Granola Bowl"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=200&q=80" alt="Granola Bowl" /></div>
             <div class="m-item-info">
-
               <h4>Granola Yogurt Bowl</h4>
-
-              <p>
-                House granola, Greek yogurt, seasonal fruit, chia seeds, and maple drizzle.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan option</span>
-              </div>
-
+              <p>House granola, Greek yogurt, seasonal fruit, chia seeds, and maple drizzle.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan option</span></div>
             </div>
-
-            <div class="m-price">
-              $10.00
-            </div>
-
+            <div class="m-price">$10.00</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1528736235302-52922df5c122?w=200&q=80"
-                alt="Sandwich"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1528736235302-52922df5c122?w=200&q=80" alt="Sandwich" /></div>
             <div class="m-item-info">
-
               <h4>Grilled Halloumi Wrap</h4>
-
-              <p>
-                Warm flatbread with grilled halloumi, roasted peppers, rocket, and tahini.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag new">New</span>
-              </div>
-
+              <p>Warm flatbread with grilled halloumi, roasted peppers, rocket, and tahini.</p>
+              <div class="m-tags"><span class="m-tag new">New</span></div>
             </div>
-
-            <div class="m-price">
-              $13.00
-            </div>
-
+            <div class="m-price">$13.00</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&q=80"
-                alt="Salad"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&q=80" alt="Salad" /></div>
             <div class="m-item-info">
-
               <h4>Kale & Quinoa Salad</h4>
-
-              <p>
-                Massaged kale, quinoa, roasted chickpeas, pomegranate, and lemon tahini dressing.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-              </div>
-
+              <p>Massaged kale, quinoa, roasted chickpeas, pomegranate, and lemon tahini dressing.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span></div>
             </div>
-
-            <div class="m-price">
-              $13.50
-            </div>
-
+            <div class="m-price">$13.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=200&q=80"
-                alt="Omelette"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=200&q=80" alt="Omelette" /></div>
             <div class="m-item-info">
-
               <h4>Mushroom Omelette</h4>
-
-              <p>
-                Three-egg omelette with sautéed wild mushrooms, thyme, and gruyère cheese.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Three-egg omelette with sautéed wild mushrooms, thyme, and gruyère cheese.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $13.00
-            </div>
-
+            <div class="m-price">$13.00</div>
           </div>
-
         </div>
-
       </div>
 
-
       <!-- ===== PASTRIES ===== -->
-
       <div class="menu-section" id="tab-pastry">
-
         <div class="menu-sec-title">
-
-          <span class="tag-label">
-            Baked Fresh Daily
-          </span>
-
-          <h2>
-            Pastries & <em>Sweets</em>
-          </h2>
-
-          <p>
-            Baked in-house every morning from 6am
-          </p>
-
+          <span class="tag-label">Baked Fresh Daily</span>
+          <h2>Pastries & <em>Sweets</em></h2>
+          <p>Baked in-house every morning from 6am</p>
         </div>
-
-
         <div class="menu-grid">
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80"
-                alt="Croissant"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80" alt="Croissant" /></div>
             <div class="m-item-info">
-
               <h4>Cardamom Croissant</h4>
-
-              <p>
-                Flaky butter croissant layered with house cardamom cream and dark honey glaze.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Flaky butter croissant layered with house cardamom cream and dark honey glaze.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $4.20
-            </div>
-
+            <div class="m-price">$4.20</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1568051243858-533a607809a5?w=200&q=80"
-                alt="Cinnamon Roll"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1568051243858-533a607809a5?w=200&q=80" alt="Cinnamon Roll" /></div>
             <div class="m-item-info">
-
               <h4>Brown Butter Cinnamon Roll</h4>
-
-              <p>
-                Soft, pillowy roll with brown butter cinnamon filling and cream cheese glaze.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Soft, pillowy roll with brown butter cinnamon filling and cream cheese glaze.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $4.80
-            </div>
-
+            <div class="m-price">$4.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=200&q=80"
-                alt="Banana Bread"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=200&q=80" alt="Banana Bread" /></div>
             <div class="m-item-info">
-
               <h4>Tahini Banana Bread</h4>
-
-              <p>
-                Moist banana bread swirled with tahini and topped with sesame seeds and sea salt.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-                <span class="m-tag new">New</span>
-              </div>
-
+              <p>Moist banana bread swirled with tahini and topped with sesame seeds and sea salt.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span><span class="m-tag new">New</span></div>
             </div>
-
-            <div class="m-price">
-              $4.00
-            </div>
-
+            <div class="m-price">$4.00</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=200&q=80"
-                alt="Cookie"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=200&q=80" alt="Cookie" /></div>
             <div class="m-item-info">
-
               <h4>Dark Chocolate Cookie</h4>
-
-              <p>
-                Thick, chewy, loaded with 70% dark chocolate chunks and a sprinkle of flaky salt.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag pop">Popular</span>
-              </div>
-
+              <p>Thick, chewy, loaded with 70% dark chocolate chunks and a sprinkle of flaky salt.</p>
+              <div class="m-tags"><span class="m-tag pop">Popular</span></div>
             </div>
-
-            <div class="m-price">
-              $3.50
-            </div>
-
+            <div class="m-price">$3.50</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1519915028121-7d3463d5b1ff?w=200&q=80"
-                alt="Muffin"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1519915028121-7d3463d5b1ff?w=200&q=80" alt="Muffin" /></div>
             <div class="m-item-info">
-
               <h4>Blueberry Bran Muffin</h4>
-
-              <p>
-                Wholesome oat-bran muffin bursting with fresh blueberries and lemon zest.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag vgn">Vegan</span>
-              </div>
-
+              <p>Wholesome oat-bran muffin bursting with fresh blueberries and lemon zest.</p>
+              <div class="m-tags"><span class="m-tag vgn">Vegan</span></div>
             </div>
-
-            <div class="m-price">
-              $3.80
-            </div>
-
+            <div class="m-price">$3.80</div>
           </div>
-
-
           <div class="m-item">
-
-            <div class="m-item-img">
-              <img
-                src="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=200&q=80"
-                alt="Cake Slice"
-              />
-            </div>
-
+            <div class="m-item-img"><img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=200&q=80" alt="Cake Slice" /></div>
             <div class="m-item-info">
-
               <h4>Almond Orange Cake</h4>
-
-              <p>
-                Flourless almond and orange cake with rose water glaze. Light and fragrant.
-              </p>
-
-              <div class="m-tags">
-                <span class="m-tag sig">Signature</span>
-                <span class="m-tag vgn">Gluten-Free</span>
-              </div>
-
+              <p>Flourless almond and orange cake with rose water glaze. Light and fragrant.</p>
+              <div class="m-tags"><span class="m-tag sig">Signature</span><span class="m-tag vgn">Gluten-Free</span></div>
             </div>
-
-            <div class="m-price">
-              $5.50
-            </div>
-
+            <div class="m-price">$5.50</div>
           </div>
-
         </div>
-
       </div>
 
     </div>
   </div>
 
-
-  <!-- =========================
-       BACK TO HOME
-  ========================== -->
-
+  <!-- BACK TO HOME -->
   <section class="cta-banner" style="padding:80px 0">
-
     <div class="cta-bg">
-
-      <img
-        src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1800&q=80"
-        alt="Cafe"
-      />
-
+      <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1800&q=80" alt="Cafe" />
       <div class="cta-overlay"></div>
-
     </div>
-
     <div class="cta-inner">
-
-      <span class="tag-label">
-        Come In
-      </span>
-
-      <h2>
-        We're Open <em>Every Day</em>
-      </h2>
-
-      <p>
-        Mon–Fri 7am–10pm · Sat 8am–11pm · Sun 9am–9pm
-      </p>
-
-      <a href="index.html" class="btn btn-gold btn-lg">
-        <i class="fa-solid fa-arrow-left"></i>
-        Back to Home
-      </a>
-
+      <span class="tag-label">Come In</span>
+      <h2>We're Open <em>Every Day</em></h2>
+      <p>Mon–Fri 7am–10pm · Sat 8am–11pm · Sun 9am–9pm</p>
+      <a href="index.html" class="btn btn-gold btn-lg"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
     </div>
-
   </section>
 
-
-  <!-- =========================
-       FOOTER
-  ========================== -->
-
+  <!-- FOOTER -->
   <footer class="footer">
-
     <div class="container">
-
       <div class="footer-top">
-
         <div class="footer-brand">
-
-          <a href="index.html" class="logo">
-            Brûlé<span>.</span>
-          </a>
-
-          <p>
-            A specialty coffee cafe dedicated to the craft of great coffee and warm hospitality.
-          </p>
-
+          <a href="index.html" class="logo">Brûlé<span>.</span></a>
+          <p>A specialty coffee cafe dedicated to the craft of great coffee and warm hospitality.</p>
         </div>
-
-
         <div class="footer-cols">
-
           <div class="footer-col">
-
             <h4>Explore</h4>
-
             <ul>
               <li><a href="index.html#about">Our Story</a></li>
               <li><a href="index.html#specialties">Specialties</a></li>
               <li><a href="index.html#gallery">Gallery</a></li>
               <li><a href="menu.html">Full Menu</a></li>
             </ul>
-
           </div>
-
-
           <div class="footer-col">
-
             <h4>Visit</h4>
-
             <ul>
               <li><a href="index.html#contact">Contact Us</a></li>
               <li><a href="#">Reservations</a></li>
               <li><a href="#">Private Events</a></li>
               <li><a href="#">Catering</a></li>
             </ul>
-
           </div>
-
-
           <div class="footer-col">
-
             <h4>Follow</h4>
-
             <ul>
               <li><a href="#">Instagram</a></li>
               <li><a href="#">TikTok</a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Facebook</a></li>
             </ul>
-
           </div>
-
         </div>
-
       </div>
-
-
       <div class="footer-btm">
-
-        <p>
-          © 2026 Brûlé Cafe. All rights reserved.
-        </p>
-
+        <p>© 2026 Brûlé Cafe. All rights reserved.</p>
         <div class="footer-legal">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Use</a>
         </div>
-
       </div>
-
     </div>
-
   </footer>
 
+  <script>
+    // Navbar
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
 
-  <!-- =========================
-       SHARED JAVASCRIPT
-  ========================== -->
+    // Tabs
+    const tabs     = document.querySelectorAll('.menu-tab');
+    const sections = document.querySelectorAll('.menu-section');
 
-  <script src="script.js"></script>
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        sections.forEach(s => s.classList.remove('active'));
+        tab.classList.add('active');
+        document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+        window.scrollTo({ top: document.querySelector('.menu-tabs-bar').offsetTop - 10, behavior: 'smooth' });
+      });
+    });
+  </script>
 
 </body>
 </html>
